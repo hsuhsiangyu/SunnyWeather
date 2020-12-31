@@ -38,7 +38,6 @@ class WeatherActivity : AppCompatActivity() {
          window.statusBarColor = Color.TRANSPARENT
         setContentView(R.layout.activity_weather)
 
-        setContentView(R.layout.activity_weather)
         if (viewModel.locationLng.isEmpty()) {
             viewModel.locationLng = intent.getStringExtra("location_lng") ?: ""
         }
